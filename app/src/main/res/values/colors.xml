@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="btn_primary_color">#00a287</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="white_pure">#ffffff</color>
+    <color name="black_pure">#000000</color>
+    <color name="font_black">#191919</color>
+    <color name="black_alpha_7">#12000000</color>
+    <color name="black_alpha_3">#07000000</color>
+    <color name="black_alpha_12">#1F000000</color>
+    <color name="black_alpha_50">#80000000</color>
+    <color name="black_alpha_24">#40000000</color>
+    <color name="black_alpha_38">#61000000</color>
+    <color name="black_alpha_75">#BF000000</color>
+    <color name="black_alpha_85">#D9000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="black_alpha_26">#42000000</color>
+    <color name="black_alpha_90">#e6000000</color>
+    <color name="black_alpha_80">#cc000000</color>
+    <color name="black_alpha_87">#df000000</color>
+    <color name="black_alpha_16">#29000000</color>
+    <color name="black_alpha_54">#8a000000</color>
+    <color name="black_alpha_72">#B8000000</color>
+    <color name="blue_btn">#008EE7</color>
+    <color name="bg_otp">#f1fcb7</color>
+</resources>

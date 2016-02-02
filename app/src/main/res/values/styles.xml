@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Application themes - Material Design -->
+
+    <style name="Theme.Material.NoActionBar" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+
+    <style name="Theme.Material.NoActionBar.NoTitleBar" parent="@style/Theme.Material.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="Theme.Material.Translucent" parent="@style/Theme.Material.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+
+    <style name="LightTheme" parent="@style/Theme.AppCompat.Light" />
+
+
+    <style name="textInputLayout" parent="@style/Theme.Material.NoActionBar">
+        <item name="android:textColor">@color/black_alpha_24</item>
+        <item name="android:textColorHint">@color/black_alpha_24</item>
+        <!--<item name="android:textSize">20sp</item>-->
+        <!-- //Label color in True State And Bar Color False And True State-->
+        <item name="colorAccent">@color/black_alpha_54</item>
+        <item name="colorControlNormal">@color/black_alpha_54</item>
+        <item name="colorControlActivated">@color/black_alpha_54</item>
+    </style>
+
+    <style name="mobile_edittext_style" parent="@style/style_text_20">
+        <item name="android:digits">
+            0123456789
+        </item>
+        <item name="android:maxLength">@integer/max_length_mobile</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:inputType">textVisiblePassword</item>
+    </style>
+
+    <style name="style_text_12">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="style_text_14">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="style_text_16">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="style_text_20">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <integer name="max_length_mobile">10</integer>
+
+    <style name="spinner_style" parent="android:Widget.Holo.Spinner">
+        <item name="android:background">@drawable/bg_spinner</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+</resources>
